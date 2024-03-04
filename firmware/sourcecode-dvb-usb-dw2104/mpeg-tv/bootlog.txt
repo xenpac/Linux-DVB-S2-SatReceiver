@@ -1,0 +1,72 @@
+[ 2856.252522] ehci_irq: port change detect
+[ 2856.256617] usb 1-1: USB disconnect, device number 5
+[ 2856.300472] dvb-usb: DVBWorld DW2104 USB2.0 successfully deinitialized and disconnected.
+[ 2858.910068] ehci_irq: port change detect
+[ 2858.921602] ehci_irq: port change detect
+[ 2858.976465] ehci_irq: port change detect
+[ 2858.982994] ehci_irq: port change detect
+[ 2859.049368] ehci_irq: port change detect
+[ 2859.373337] usb 1-1: new high-speed USB device number 6 using sw-ehci
+[ 2859.524171] usb 1-1: New USB device found, idVendor=04b4, idProduct=2104
+[ 2859.530323] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[ 2859.539930] dvb-usb: found a 'DVBWorld DW2104 USB2.0' in cold state, will try to load a firmware
+[ 2859.583603] dvb-usb: downloading firmware from file 'dvb-usb-dw2104.fw'
+[ 2859.587877] dw2102: start downloading DW210X firmware
+[ 2859.600111] dw2102: op_rw-> request:c4 value:0x00 index:0x00 len:1 write:1 
+[ 2859.601897] dw2102: > 0x01
+[ 2861.604140] dw2102: op_rw-> request:bf value:0x40 index:0x00 len:0 write:1 
+[ 2861.713397] dvb-usb: found a 'DVBWorld DW2104 USB2.0' in warm state.
+[ 2861.721556] dvb-usb: will pass the complete MPEG2 transport stream to the software demuxer.
+[ 2861.727275] DVB: registering new adapter (DVBWorld DW2104 USB2.0)
+[ 2861.731045] dw2102: dw210x_reading eeprom/mac...
+[ 2861.731059] 
+[ 2861.799175] dvb-usb: MAC address: 00:18:bd:5d:bf:78
+[ 2861.807204] dw2102: dw2104_frontend_attach/demod probe...
+[ 2861.807222] 
+[ 2861.810374] dw2102: Attaching CX24116 ...
+[ 2861.810386] 
+[ 2861.813759] dw2102: dw2104_i2c_transfer...
+[ 2861.813775] 
+[ 2861.819715] dw2102: op_rw-> request:c2 value:0x00 index:0x00 len:3 write:1 
+[ 2861.821900] dw2102: > 0xaa
+[ 2861.823600] dw2102: > 0x01
+[ 2861.825285] dw2102: > 0xff
+[ 2863.831555] dw2102: dw2104_i2c_transfer...
+[ 2863.831576] 
+[ 2863.837515] dw2102: op_rw-> request:c3 value:0xab index:0x00 len:3 write:0 
+[ 2863.839240] dw2102: > 0xaa
+[ 2863.840985] dw2102: > 0x01
+[ 2863.842664] dw2102: > 0xff
+[ 2863.875025] cx24116: read reg 0xff, value 0xa0
+[ 2863.878274] dw2102: dw2104_i2c_transfer...
+[ 2863.878286] 
+[ 2863.884603] dw2102: op_rw-> request:c2 value:0x00 index:0x00 len:3 write:1 
+[ 2863.886296] dw2102: > 0xaa
+[ 2863.887972] dw2102: > 0x01
+[ 2863.889647] dw2102: > 0xfe
+[ 2865.891852] dw2102: dw2104_i2c_transfer...
+[ 2865.891874] 
+[ 2865.897811] dw2102: op_rw-> request:c3 value:0xab index:0x00 len:3 write:0 
+[ 2865.899510] dw2102: > 0xaa
+[ 2865.901242] dw2102: > 0x01
+[ 2865.902921] dw2102: > 0xfe
+[ 2865.935620] cx24116: read reg 0xfe, value 0xd6
+[ 2865.938110] Got ChipId/Rev:0xa0d6
+[ 2865.942405] Invalid probe, probably not a CX24116 device
+[ 2865.945768] dw2102: dw2104_i2c_transfer...
+[ 2865.945783] 
+[ 2865.951716] dw2102: op_rw-> request:c2 value:0x00 index:0x00 len:3 write:1 
+[ 2865.953438] dw2102: > 0xd0
+[ 2865.955114] dw2102: > 0x01
+[ 2865.956791] dw2102: > 0x00
+[ 2867.951828] dw2102: dw2104_i2c_transfer...
+[ 2867.951851] 
+[ 2867.957790] dw2102: op_rw-> request:c3 value:0xd1 index:0x00 len:3 write:0 
+[ 2867.959486] dw2102: > 0xd0
+[ 2867.961216] dw2102: > 0x01
+[ 2867.962892] dw2102: > 0x00
+[ 2867.996282] Invalid probe, probably not a DS3000
+[ 2868.002085] dvb-usb: no frontend was attached by 'DVBWorld DW2104 USB2.0'
+[ 2868.012284] input: IR-receiver inside an USB DVB receiver as /devices/platform/sw-ehci.1/usb1/1-1/input/input6
+[ 2868.018100] dvb-usb: schedule remote query interval to 150 msecs.
+[ 2868.024758] dvb-usb: DVBWorld DW2104 USB2.0 successfully initialized and connected.

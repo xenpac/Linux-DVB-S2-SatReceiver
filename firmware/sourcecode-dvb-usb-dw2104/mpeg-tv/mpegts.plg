@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\User\a\1-dvb-s\mpeg-tv\mpegts.uv2
+Project File Date:  03/03/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling mpegts.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?EP2RESET?MPEGTS
+Program Size: data=56.6 xdata=4659 code=2591
+creating hex file from "mpegts"...
+User command #1: hex2bix -i -f 0xC2 -o mpegts.iic mpegts.hex
+Intel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 2012-2013, Cypress Semiconductor Inc.
+2632 Bytes written.
+Total Code Bytes = 2591
+Conversion completed successfully.
+User command #2: copy.bat
+C:\Users\User\a\1-dvb-s\mpeg-tv>hex2bin -p 0 mpegts.hex 
+hex2bin v2.5, Copyright (C) 2017 Jacques Pelletier & contributors
+Allocate_Memory_and_Rewind:
+Lowest address:   00000000
+Highest address:  00000A92
+Starting address: 00000000
+Max Length:       2707
+Binary file start = 00000000
+Records start     = 00000000
+Highest address   = 00000A92
+Pad Byte          = 0
+C:\Users\User\a\1-dvb-s\mpeg-tv>copy /y mpegts.bin dvb-usb-dw2104.fw 
+        1 file(s) copied.
+"mpegts" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+User command #1: hex2bix -i -f 0xC2 -o mpegts.iic mpegts.hex
+Intel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 2012-2013, Cypress Semiconductor Inc.
+2632 Bytes written.
+Total Code Bytes = 2591
+Conversion completed successfully.
+User command #2: copy.bat
+C:\Users\User\a\1-dvb-s\mpeg-tv>hex2bin -p 0 mpegts.hex 
+hex2bin v2.5, Copyright (C) 2017 Jacques Pelletier & contributors
+Allocate_Memory_and_Rewind:
+Lowest address:   00000000
+Highest address:  00000A92
+Starting address: 00000000
+Max Length:       2707
+Binary file start = 00000000
+Records start     = 00000000
+Highest address   = 00000A92
+Pad Byte          = 0
+C:\Users\User\a\1-dvb-s\mpeg-tv>copy /y mpegts.bin dvb-usb-dw2104.fw 
+        1 file(s) copied.
+"mpegts" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling mpegts.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?EP2RESET?MPEGTS
+Program Size: data=56.6 xdata=4659 code=2591
+creating hex file from "mpegts"...
+User command #1: hex2bix -i -f 0xC2 -o mpegts.iic mpegts.hex
+Intel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 2012-2013, Cypress Semiconductor Inc.
+2632 Bytes written.
+Total Code Bytes = 2591
+Conversion completed successfully.
+User command #2: copy.bat
+C:\Users\User\a\1-dvb-s\mpeg-tv>hex2bin -p 0 mpegts.hex 
+hex2bin v2.5, Copyright (C) 2017 Jacques Pelletier & contributors
+Allocate_Memory_and_Rewind:
+Lowest address:   00000000
+Highest address:  00000A92
+Starting address: 00000000
+Max Length:       2707
+Binary file start = 00000000
+Records start     = 00000000
+Highest address   = 00000A92
+Pad Byte          = 0
+C:\Users\User\a\1-dvb-s\mpeg-tv>copy /y mpegts.bin dvb-usb-dw2104.fw 
+        1 file(s) copied.
+"mpegts" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling mpegts.c...
+linking...
+Program Size: data=56.6 xdata=4659 code=2539
+creating hex file from "mpegts"...
+User command #1: hex2bix -i -f 0xC2 -o mpegts.iic mpegts.hex
+Intel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 2012-2013, Cypress Semiconductor Inc.
+2580 Bytes written.
+Total Code Bytes = 2539
+Conversion completed successfully.
+User command #2: copy.bat
+C:\Users\User\a\1-dvb-s\mpeg-tv>hex2bin -p 0 mpegts.hex 
+hex2bin v2.5, Copyright (C) 2017 Jacques Pelletier & contributors
+Allocate_Memory_and_Rewind:
+Lowest address:   00000000
+Highest address:  00000A5E
+Starting address: 00000000
+Max Length:       2655
+Binary file start = 00000000
+Records start     = 00000000
+Highest address   = 00000A5E
+Pad Byte          = 0
+C:\Users\User\a\1-dvb-s\mpeg-tv>copy /y mpegts.bin dvb-usb-dw2104.fw 
+        1 file(s) copied.
+"mpegts" - 0 Error(s), 0 Warning(s).

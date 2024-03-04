@@ -1,0 +1,618 @@
+BL51 BANKED LINKER/LOCATER V5.03                                                        03/03/2024  14:43:55  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.03, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE mpegts.obj TO mpegts IXREF RAMSIZE (256) CODE (0X80) XDATA (0X1000)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  mpegts.obj (MPEGTS)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?CLDPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?CLDOPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?CSTPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?CSTOPTR)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  mpegts (MPEGTS)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0015H     UNIT         _DATA_GROUP_
+                    001DH     0003H                  *** GAP ***
+            BIT     0020H.0   0000H.5   UNIT         ?BI?MPEGTS
+            BIT     0020H.5   0000H.1   UNIT         _BIT_GROUP_
+                    0020H.6   0000H.2                *** GAP ***
+            DATA    0021H     001AH     UNIT         ?DT?MPEGTS
+            IDATA   003BH     0001H     UNIT         ?STACK
+
+            * * * * * * *  X D A T A   M E M O R Y  * * * * * * *
+                    0000H     1000H                  *** GAP ***
+            XDATA   1000H     00BAH     UNIT         ?XD?MPEGTS
+                    10BAH     D346H                  *** GAP ***
+            XDATA   E400H     0001H     ABSOLUTE     
+                    E401H     007FH                  *** GAP ***
+            XDATA   E480H     0001H     ABSOLUTE     
+                    E481H     008CH                  *** GAP ***
+            XDATA   E50DH     0001H     ABSOLUTE     
+                    E50EH     00F2H                  *** GAP ***
+            XDATA   E600H     0001H     ABSOLUTE     
+            XDATA   E601H     0001H     ABSOLUTE     
+            XDATA   E602H     0001H     ABSOLUTE     
+            XDATA   E603H     0001H     ABSOLUTE     
+            XDATA   E604H     0001H     ABSOLUTE     
+            XDATA   E605H     0001H     ABSOLUTE     
+            XDATA   E606H     0001H     ABSOLUTE     
+            XDATA   E607H     0001H     ABSOLUTE     
+            XDATA   E608H     0001H     ABSOLUTE     
+            XDATA   E609H     0001H     ABSOLUTE     
+            XDATA   E60AH     0001H     ABSOLUTE     
+            XDATA   E60BH     0001H     ABSOLUTE     
+            XDATA   E60CH     0001H     ABSOLUTE     
+                    E60DH     0003H                  *** GAP ***
+            XDATA   E610H     0001H     ABSOLUTE     
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 2
+
+
+            XDATA   E611H     0001H     ABSOLUTE     
+            XDATA   E612H     0001H     ABSOLUTE     
+            XDATA   E613H     0001H     ABSOLUTE     
+            XDATA   E614H     0001H     ABSOLUTE     
+            XDATA   E615H     0001H     ABSOLUTE     
+                    E616H     0002H                  *** GAP ***
+            XDATA   E618H     0001H     ABSOLUTE     
+            XDATA   E619H     0001H     ABSOLUTE     
+            XDATA   E61AH     0001H     ABSOLUTE     
+            XDATA   E61BH     0001H     ABSOLUTE     
+                    E61CH     0004H                  *** GAP ***
+            XDATA   E620H     0001H     ABSOLUTE     
+            XDATA   E621H     0001H     ABSOLUTE     
+            XDATA   E622H     0001H     ABSOLUTE     
+            XDATA   E623H     0001H     ABSOLUTE     
+            XDATA   E624H     0001H     ABSOLUTE     
+            XDATA   E625H     0001H     ABSOLUTE     
+            XDATA   E626H     0001H     ABSOLUTE     
+            XDATA   E627H     0001H     ABSOLUTE     
+            XDATA   E628H     0001H     ABSOLUTE     
+            XDATA   E629H     0001H     ABSOLUTE     
+            XDATA   E62AH     0001H     ABSOLUTE     
+            XDATA   E62BH     0001H     ABSOLUTE     
+            XDATA   E62CH     0001H     ABSOLUTE     
+            XDATA   E62DH     0001H     ABSOLUTE     
+            XDATA   E62EH     0001H     ABSOLUTE     
+            XDATA   E62FH     0001H     ABSOLUTE     
+            XDATA   E630H     0001H     ABSOLUTE     
+            XDATA   E631H     0001H     ABSOLUTE     
+            XDATA   E632H     0001H     ABSOLUTE     
+            XDATA   E633H     0001H     ABSOLUTE     
+            XDATA   E634H     0001H     ABSOLUTE     
+            XDATA   E635H     0001H     ABSOLUTE     
+            XDATA   E636H     0001H     ABSOLUTE     
+            XDATA   E637H     0001H     ABSOLUTE     
+                    E638H     0008H                  *** GAP ***
+            XDATA   E640H     0001H     ABSOLUTE     
+            XDATA   E641H     0001H     ABSOLUTE     
+            XDATA   E642H     0001H     ABSOLUTE     
+            XDATA   E643H     0001H     ABSOLUTE     
+                    E644H     0004H                  *** GAP ***
+            XDATA   E648H     0001H     ABSOLUTE     
+            XDATA   E649H     0001H     ABSOLUTE     
+                    E64AH     0006H                  *** GAP ***
+            XDATA   E650H     0001H     ABSOLUTE     
+            XDATA   E651H     0001H     ABSOLUTE     
+            XDATA   E652H     0001H     ABSOLUTE     
+            XDATA   E653H     0001H     ABSOLUTE     
+            XDATA   E654H     0001H     ABSOLUTE     
+            XDATA   E655H     0001H     ABSOLUTE     
+            XDATA   E656H     0001H     ABSOLUTE     
+            XDATA   E657H     0001H     ABSOLUTE     
+            XDATA   E658H     0001H     ABSOLUTE     
+            XDATA   E659H     0001H     ABSOLUTE     
+            XDATA   E65AH     0001H     ABSOLUTE     
+            XDATA   E65BH     0001H     ABSOLUTE     
+            XDATA   E65CH     0001H     ABSOLUTE     
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 3
+
+
+            XDATA   E65DH     0001H     ABSOLUTE     
+            XDATA   E65EH     0001H     ABSOLUTE     
+            XDATA   E65FH     0001H     ABSOLUTE     
+            XDATA   E660H     0001H     ABSOLUTE     
+            XDATA   E661H     0001H     ABSOLUTE     
+            XDATA   E662H     0001H     ABSOLUTE     
+            XDATA   E663H     0001H     ABSOLUTE     
+            XDATA   E664H     0001H     ABSOLUTE     
+            XDATA   E665H     0001H     ABSOLUTE     
+            XDATA   E666H     0001H     ABSOLUTE     
+            XDATA   E667H     0001H     ABSOLUTE     
+            XDATA   E668H     0001H     ABSOLUTE     
+                    E669H     0007H                  *** GAP ***
+            XDATA   E670H     0001H     ABSOLUTE     
+            XDATA   E671H     0001H     ABSOLUTE     
+            XDATA   E672H     0001H     ABSOLUTE     
+                    E673H     0005H                  *** GAP ***
+            XDATA   E678H     0001H     ABSOLUTE     
+            XDATA   E679H     0001H     ABSOLUTE     
+            XDATA   E67AH     0001H     ABSOLUTE     
+            XDATA   E67BH     0001H     ABSOLUTE     
+            XDATA   E67CH     0001H     ABSOLUTE     
+            XDATA   E67DH     0001H     ABSOLUTE     
+            XDATA   E67EH     0001H     ABSOLUTE     
+            XDATA   E67FH     0001H     ABSOLUTE     
+            XDATA   E680H     0001H     ABSOLUTE     
+            XDATA   E681H     0001H     ABSOLUTE     
+            XDATA   E682H     0001H     ABSOLUTE     
+            XDATA   E683H     0001H     ABSOLUTE     
+            XDATA   E684H     0001H     ABSOLUTE     
+            XDATA   E685H     0001H     ABSOLUTE     
+            XDATA   E686H     0001H     ABSOLUTE     
+            XDATA   E687H     0001H     ABSOLUTE     
+                    E688H     0002H                  *** GAP ***
+            XDATA   E68AH     0001H     ABSOLUTE     
+            XDATA   E68BH     0001H     ABSOLUTE     
+                    E68CH     0001H                  *** GAP ***
+            XDATA   E68DH     0001H     ABSOLUTE     
+                    E68EH     0001H                  *** GAP ***
+            XDATA   E68FH     0001H     ABSOLUTE     
+            XDATA   E690H     0001H     ABSOLUTE     
+            XDATA   E691H     0001H     ABSOLUTE     
+                    E692H     0002H                  *** GAP ***
+            XDATA   E694H     0001H     ABSOLUTE     
+            XDATA   E695H     0001H     ABSOLUTE     
+                    E696H     0002H                  *** GAP ***
+            XDATA   E698H     0001H     ABSOLUTE     
+            XDATA   E699H     0001H     ABSOLUTE     
+                    E69AH     0002H                  *** GAP ***
+            XDATA   E69CH     0001H     ABSOLUTE     
+            XDATA   E69DH     0001H     ABSOLUTE     
+                    E69EH     0002H                  *** GAP ***
+            XDATA   E6A0H     0001H     ABSOLUTE     
+            XDATA   E6A1H     0001H     ABSOLUTE     
+            XDATA   E6A2H     0001H     ABSOLUTE     
+            XDATA   E6A3H     0001H     ABSOLUTE     
+            XDATA   E6A4H     0001H     ABSOLUTE     
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 4
+
+
+            XDATA   E6A5H     0001H     ABSOLUTE     
+            XDATA   E6A6H     0001H     ABSOLUTE     
+            XDATA   E6A7H     0001H     ABSOLUTE     
+            XDATA   E6A8H     0001H     ABSOLUTE     
+            XDATA   E6A9H     0001H     ABSOLUTE     
+            XDATA   E6AAH     0001H     ABSOLUTE     
+            XDATA   E6ABH     0001H     ABSOLUTE     
+            XDATA   E6ACH     0001H     ABSOLUTE     
+            XDATA   E6ADH     0001H     ABSOLUTE     
+            XDATA   E6AEH     0001H     ABSOLUTE     
+            XDATA   E6AFH     0001H     ABSOLUTE     
+            XDATA   E6B0H     0001H     ABSOLUTE     
+            XDATA   E6B1H     0001H     ABSOLUTE     
+            XDATA   E6B2H     0001H     ABSOLUTE     
+            XDATA   E6B3H     0001H     ABSOLUTE     
+            XDATA   E6B4H     0001H     ABSOLUTE     
+            XDATA   E6B5H     0001H     ABSOLUTE     
+                    E6B6H     0002H                  *** GAP ***
+            XDATA   E6B8H     0008H     ABSOLUTE     
+            XDATA   E6C0H     0001H     ABSOLUTE     
+            XDATA   E6C1H     0001H     ABSOLUTE     
+            XDATA   E6C2H     0001H     ABSOLUTE     
+            XDATA   E6C3H     0001H     ABSOLUTE     
+            XDATA   E6C4H     0001H     ABSOLUTE     
+            XDATA   E6C5H     0001H     ABSOLUTE     
+            XDATA   E6C6H     0001H     ABSOLUTE     
+            XDATA   E6C7H     0001H     ABSOLUTE     
+            XDATA   E6C8H     0001H     ABSOLUTE     
+            XDATA   E6C9H     0001H     ABSOLUTE     
+            XDATA   E6CAH     0001H     ABSOLUTE     
+            XDATA   E6CBH     0001H     ABSOLUTE     
+            XDATA   E6CCH     0001H     ABSOLUTE     
+            XDATA   E6CDH     0001H     ABSOLUTE     
+            XDATA   E6CEH     0001H     ABSOLUTE     
+            XDATA   E6CFH     0001H     ABSOLUTE     
+            XDATA   E6D0H     0001H     ABSOLUTE     
+            XDATA   E6D1H     0001H     ABSOLUTE     
+            XDATA   E6D2H     0001H     ABSOLUTE     
+            XDATA   E6D3H     0001H     ABSOLUTE     
+            XDATA   E6D4H     0001H     ABSOLUTE     
+                    E6D5H     0005H                  *** GAP ***
+            XDATA   E6DAH     0001H     ABSOLUTE     
+            XDATA   E6DBH     0001H     ABSOLUTE     
+            XDATA   E6DCH     0001H     ABSOLUTE     
+                    E6DDH     0005H                  *** GAP ***
+            XDATA   E6E2H     0001H     ABSOLUTE     
+            XDATA   E6E3H     0001H     ABSOLUTE     
+            XDATA   E6E4H     0001H     ABSOLUTE     
+                    E6E5H     0005H                  *** GAP ***
+            XDATA   E6EAH     0001H     ABSOLUTE     
+            XDATA   E6EBH     0001H     ABSOLUTE     
+            XDATA   E6ECH     0001H     ABSOLUTE     
+                    E6EDH     0003H                  *** GAP ***
+            XDATA   E6F0H     0001H     ABSOLUTE     
+            XDATA   E6F1H     0001H     ABSOLUTE     
+            XDATA   E6F2H     0001H     ABSOLUTE     
+            XDATA   E6F3H     0001H     ABSOLUTE     
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 5
+
+
+            XDATA   E6F4H     0001H     ABSOLUTE     
+            XDATA   E6F5H     0001H     ABSOLUTE     
+                    E6F6H     0002H                  *** GAP ***
+            XDATA   E6F8H     0001H     ABSOLUTE     
+            XDATA   E6F9H     0001H     ABSOLUTE     
+            XDATA   E6FAH     0001H     ABSOLUTE     
+            XDATA   E6FBH     0001H     ABSOLUTE     
+            XDATA   E6FCH     0001H     ABSOLUTE     
+            XDATA   E6FDH     0001H     ABSOLUTE     
+            XDATA   E6FEH     0001H     ABSOLUTE     
+                    E6FFH     0041H                  *** GAP ***
+            XDATA   E740H     0040H     ABSOLUTE     
+            XDATA   E780H     0040H     ABSOLUTE     
+            XDATA   E7C0H     0040H     ABSOLUTE     
+                    E800H     0800H                  *** GAP ***
+            XDATA   F000H     0400H     ABSOLUTE     
+            XDATA   F400H     0400H     ABSOLUTE     
+            XDATA   F800H     0400H     ABSOLUTE     
+            XDATA   FC00H     0400H     ABSOLUTE     
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     0008H                  *** GAP ***
+            CODE    000BH     0003H     ABSOLUTE     
+                    000EH     0035H                  *** GAP ***
+            CODE    0043H     0003H     ABSOLUTE     
+                    0046H     0005H                  *** GAP ***
+            CODE    004BH     0003H     ABSOLUTE     
+                    004EH     0032H                  *** GAP ***
+            CODE    0080H     02D9H     UNIT         ?PR?SETUPCOMMAND?MPEGTS
+            CODE    0359H     00FEH     UNIT         ?PR?I2C_ISR?MPEGTS
+            CODE    0457H     00FDH     UNIT         ?PR?INITIALIZE?MPEGTS
+            CODE    0554H     00D1H     UNIT         ?PR?VENDORCOMMANDS?MPEGTS
+            CODE    0625H     00CCH     UNIT         ?PR?MAIN?MPEGTS
+            CODE    06F1H     009EH     UNIT         ?C_INITSEG
+            CODE    078FH     008CH     UNIT         ?C_C51STARTUP
+            CODE    081BH     007AH     UNIT         ?C?LIB_CODE
+            CODE    0895H     0055H     UNIT         ?PR?USB_ISR?MPEGTS
+            CODE    08EAH     003DH     UNIT         ?PR?_I2C_READ?MPEGTS
+            CODE    0927H     003AH     UNIT         ?PR?TIM0_INT?MPEGTS
+            CODE    0961H     0038H     UNIT         ?PR?_I2CREAD?MPEGTS
+            CODE    0999H     0036H     UNIT         ?PR?_I2C_WRITE?MPEGTS
+            CODE    09CFH     0036H     UNIT         ?PR?_I2CWRITE?MPEGTS
+            CODE    0A05H     0034H     UNIT         ?PR?_MCOPY?MPEGTS
+            CODE    0A39H     0010H     UNIT         ?PR?_DELAY?MPEGTS
+            CODE    0A49H     000CH     UNIT         ?PR?I2CINIT?MPEGTS
+            CODE    0A55H     000AH     UNIT         ?CO?MPEGTS
+
+
+
+OVERLAY MAP OF MODULE:   mpegts (MPEGTS)
+
+
+SEGMENT                              BIT_GROUP          DATA_GROUP 
+  +--> CALLED SEGMENT             START    LENGTH     START    LENGTH
+---------------------------------------------------------------------
+?C_C51STARTUP                     -----    -----      -----    -----
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 6
+
+
+  +--> ?PR?MAIN?MPEGTS
+  +--> ?C_INITSEG
+
+?PR?MAIN?MPEGTS                   -----    -----      0008H    000AH
+  +--> ?PR?INITIALIZE?MPEGTS
+  +--> ?PR?_DELAY?MPEGTS
+  +--> ?PR?SETUPCOMMAND?MPEGTS
+
+?PR?INITIALIZE?MPEGTS             -----    -----      -----    -----
+  +--> ?PR?I2CINIT?MPEGTS
+
+?PR?SETUPCOMMAND?MPEGTS           -----    -----      -----    -----
+  +--> ?CO?MPEGTS
+  +--> ?PR?VENDORCOMMANDS?MPEGTS
+
+?PR?VENDORCOMMANDS?MPEGTS         -----    -----      0012H    0003H
+  +--> ?PR?_I2C_READ?MPEGTS
+  +--> ?PR?_DELAY?MPEGTS
+  +--> ?PR?_I2C_WRITE?MPEGTS
+
+?PR?_I2C_READ?MPEGTS              0020H.5  0000H.1    0015H    0001H
+  +--> ?PR?_I2CREAD?MPEGTS
+  +--> ?PR?_MCOPY?MPEGTS
+
+?PR?_MCOPY?MPEGTS                 -----    -----      0016H    0007H
+
+?PR?_I2C_WRITE?MPEGTS             0020H.5  0000H.1    -----    -----
+  +--> ?PR?_MCOPY?MPEGTS
+  +--> ?PR?_I2CWRITE?MPEGTS
+
+
+
+SYMBOL TABLE OF MODULE:  mpegts (MPEGTS)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C?CLDPTR
+  C:081BH         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+  -------         MODULE        ?C?CLDOPTR
+  C:0834H         PUBLIC        ?C?CLDOPTR
+  -------         ENDMOD        ?C?CLDOPTR
+
+  -------         MODULE        ?C?CSTPTR
+  C:0861H         PUBLIC        ?C?CSTPTR
+  -------         ENDMOD        ?C?CSTPTR
+
+  -------         MODULE        ?C?CSTOPTR
+  C:0873H         PUBLIC        ?C?CSTOPTR
+  -------         ENDMOD        ?C?CSTOPTR
+
+
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 7
+
+
+
+
+NAME . . . . . . . . . . . USAGE    MODULE NAMES
+------------------------------------------------
+
+?C?CLDOPTR . . . . . . . . CODE;    ?C?CLDOPTR  MPEGTS  
+?C?CLDPTR. . . . . . . . . CODE;    ?C?CLDPTR  MPEGTS  
+?C?CSTOPTR . . . . . . . . CODE;    ?C?CSTOPTR  MPEGTS  
+?C?CSTPTR. . . . . . . . . CODE;    ?C?CSTPTR  MPEGTS  
+?C_INITSEGSTART. . . . . . CODE;    ** L51 GENERATED **  
+?C_START . . . . . . . . . CODE;    ?C_INIT  ?C_STARTUP  
+?C_STARTUP . . . . . . . . CODE;    ?C_STARTUP  MPEGTS  
+?_MCOPY?BYTE . . . . . . . DATA;    MPEGTS  
+BPADDRH. . . . . . . . . . XDATA;   MPEGTS  
+BPADDRL. . . . . . . . . . XDATA;   MPEGTS  
+BREAKPT. . . . . . . . . . XDATA;   MPEGTS  
+CLRERRCNT. . . . . . . . . XDATA;   MPEGTS  
+CONFIGURATION. . . . . . . DATA;    MPEGTS  
+CPUCS. . . . . . . . . . . XDATA;   MPEGTS  
+CT1. . . . . . . . . . . . XDATA;   MPEGTS  
+CT2. . . . . . . . . . . . XDATA;   MPEGTS  
+CT3. . . . . . . . . . . . XDATA;   MPEGTS  
+CT4. . . . . . . . . . . . XDATA;   MPEGTS  
+DBUG . . . . . . . . . . . XDATA;   MPEGTS  
+DELAYTIM . . . . . . . . . DATA;    MPEGTS  
+DUMMY. . . . . . . . . . . XDATA;   MPEGTS  
+ECC1B0 . . . . . . . . . . XDATA;   MPEGTS  
+ECC1B1 . . . . . . . . . . XDATA;   MPEGTS  
+ECC1B2 . . . . . . . . . . XDATA;   MPEGTS  
+ECC2B0 . . . . . . . . . . XDATA;   MPEGTS  
+ECC2B1 . . . . . . . . . . XDATA;   MPEGTS  
+ECC2B2 . . . . . . . . . . XDATA;   MPEGTS  
+ECCCFG . . . . . . . . . . XDATA;   MPEGTS  
+ECCRESET . . . . . . . . . XDATA;   MPEGTS  
+EP0BCH . . . . . . . . . . XDATA;   MPEGTS  
+EP0BCL . . . . . . . . . . XDATA;   MPEGTS  
+EP0BUF . . . . . . . . . . XDATA;   MPEGTS  
+EP0CS. . . . . . . . . . . XDATA;   MPEGTS  
+EP1INBC. . . . . . . . . . XDATA;   MPEGTS  
+EP1INBUF . . . . . . . . . XDATA;   MPEGTS  
+EP1INCFG . . . . . . . . . XDATA;   MPEGTS  
+EP1INCS. . . . . . . . . . XDATA;   MPEGTS  
+EP1OUTBC . . . . . . . . . XDATA;   MPEGTS  
+EP1OUTBUF. . . . . . . . . XDATA;   MPEGTS  
+EP1OUTCFG. . . . . . . . . XDATA;   MPEGTS  
+EP1OUTCS . . . . . . . . . XDATA;   MPEGTS  
+EP2AUTOINLENH. . . . . . . XDATA;   MPEGTS  
+EP2AUTOINLENL. . . . . . . XDATA;   MPEGTS  
+EP2BCH . . . . . . . . . . XDATA;   MPEGTS  
+EP2BCL . . . . . . . . . . XDATA;   MPEGTS  
+EP2CFG . . . . . . . . . . XDATA;   MPEGTS  
+EP2CS. . . . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOBCH . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOBCL . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOBUF . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOCFG . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOFLGS. . . . . . . . XDATA;   MPEGTS  
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 8
+
+
+EP2FIFOIE. . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOIRQ . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOPFH . . . . . . . . XDATA;   MPEGTS  
+EP2FIFOPFL . . . . . . . . XDATA;   MPEGTS  
+EP2GPIFFLGSEL. . . . . . . XDATA;   MPEGTS  
+EP2GPIFPFSTOP. . . . . . . XDATA;   MPEGTS  
+EP2GPIFTRIG. . . . . . . . XDATA;   MPEGTS  
+EP2ISOINPKTS . . . . . . . XDATA;   MPEGTS  
+EP4AUTOINLENH. . . . . . . XDATA;   MPEGTS  
+EP4AUTOINLENL. . . . . . . XDATA;   MPEGTS  
+EP4BCH . . . . . . . . . . XDATA;   MPEGTS  
+EP4BCL . . . . . . . . . . XDATA;   MPEGTS  
+EP4CFG . . . . . . . . . . XDATA;   MPEGTS  
+EP4CS. . . . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOBCH . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOBCL . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOBUF . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOCFG . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOFLGS. . . . . . . . XDATA;   MPEGTS  
+EP4FIFOIE. . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOIRQ . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOPFH . . . . . . . . XDATA;   MPEGTS  
+EP4FIFOPFL . . . . . . . . XDATA;   MPEGTS  
+EP4GPIFFLGSEL. . . . . . . XDATA;   MPEGTS  
+EP4GPIFPFSTOP. . . . . . . XDATA;   MPEGTS  
+EP4GPIFTRIG. . . . . . . . XDATA;   MPEGTS  
+EP4ISOINPKTS . . . . . . . XDATA;   MPEGTS  
+EP6AUTOINLENH. . . . . . . XDATA;   MPEGTS  
+EP6AUTOINLENL. . . . . . . XDATA;   MPEGTS  
+EP6BCH . . . . . . . . . . XDATA;   MPEGTS  
+EP6BCL . . . . . . . . . . XDATA;   MPEGTS  
+EP6CFG . . . . . . . . . . XDATA;   MPEGTS  
+EP6CS. . . . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOBCH . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOBCL . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOBUF . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOCFG . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOFLGS. . . . . . . . XDATA;   MPEGTS  
+EP6FIFOIE. . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOIRQ . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOPFH . . . . . . . . XDATA;   MPEGTS  
+EP6FIFOPFL . . . . . . . . XDATA;   MPEGTS  
+EP6GPIFFLGSEL. . . . . . . XDATA;   MPEGTS  
+EP6GPIFPFSTOP. . . . . . . XDATA;   MPEGTS  
+EP6GPIFTRIG. . . . . . . . XDATA;   MPEGTS  
+EP6ISOINPKTS . . . . . . . XDATA;   MPEGTS  
+EP8AUTOINLENH. . . . . . . XDATA;   MPEGTS  
+EP8AUTOINLENL. . . . . . . XDATA;   MPEGTS  
+EP8BCH . . . . . . . . . . XDATA;   MPEGTS  
+EP8BCL . . . . . . . . . . XDATA;   MPEGTS  
+EP8CFG . . . . . . . . . . XDATA;   MPEGTS  
+EP8CS. . . . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOBCH . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOBCL . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOBUF . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOCFG . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOFLGS. . . . . . . . XDATA;   MPEGTS  
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 9
+
+
+EP8FIFOIE. . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOIRQ . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOPFH . . . . . . . . XDATA;   MPEGTS  
+EP8FIFOPFL . . . . . . . . XDATA;   MPEGTS  
+EP8GPIFFLGSEL. . . . . . . XDATA;   MPEGTS  
+EP8GPIFPFSTOP. . . . . . . XDATA;   MPEGTS  
+EP8GPIFTRIG. . . . . . . . XDATA;   MPEGTS  
+EP8ISOINPKTS . . . . . . . XDATA;   MPEGTS  
+EPCS_OFFSET_LOOKUP_TABLE . CODE;    MPEGTS  
+EPIE . . . . . . . . . . . XDATA;   MPEGTS  
+EPIRQ. . . . . . . . . . . XDATA;   MPEGTS  
+ERRCNTLIM. . . . . . . . . XDATA;   MPEGTS  
+FIFOPINPOLAR . . . . . . . XDATA;   MPEGTS  
+FIFORESET. . . . . . . . . XDATA;   MPEGTS  
+FLOWEQ0CTL . . . . . . . . XDATA;   MPEGTS  
+FLOWEQ1CTL . . . . . . . . XDATA;   MPEGTS  
+FLOWHOLDOFF. . . . . . . . XDATA;   MPEGTS  
+FLOWLOGIC. . . . . . . . . XDATA;   MPEGTS  
+FLOWSTATE. . . . . . . . . XDATA;   MPEGTS  
+FLOWSTB. . . . . . . . . . XDATA;   MPEGTS  
+FLOWSTBEDGE. . . . . . . . XDATA;   MPEGTS  
+FLOWSTBHPERIOD . . . . . . XDATA;   MPEGTS  
+FNADDR . . . . . . . . . . XDATA;   MPEGTS  
+GOTSUDAV . . . . . . . . . BIT;     MPEGTS  
+GPCR2. . . . . . . . . . . XDATA;   MPEGTS  
+GPIFABORT. . . . . . . . . XDATA;   MPEGTS  
+GPIFADRH . . . . . . . . . XDATA;   MPEGTS  
+GPIFADRL . . . . . . . . . XDATA;   MPEGTS  
+GPIFCTLCFG . . . . . . . . XDATA;   MPEGTS  
+GPIFHOLDAMOUNT . . . . . . XDATA;   MPEGTS  
+GPIFIDLECS . . . . . . . . XDATA;   MPEGTS  
+GPIFIDLECTL. . . . . . . . XDATA;   MPEGTS  
+GPIFIE . . . . . . . . . . XDATA;   MPEGTS  
+GPIFIRQ. . . . . . . . . . XDATA;   MPEGTS  
+GPIFREADYCFG . . . . . . . XDATA;   MPEGTS  
+GPIFREADYSTAT. . . . . . . XDATA;   MPEGTS  
+GPIFTCB0 . . . . . . . . . XDATA;   MPEGTS  
+GPIFTCB1 . . . . . . . . . XDATA;   MPEGTS  
+GPIFTCB2 . . . . . . . . . XDATA;   MPEGTS  
+GPIFTCB3 . . . . . . . . . XDATA;   MPEGTS  
+GPIFWFSELECT . . . . . . . XDATA;   MPEGTS  
+GPIF_WAVE_DATA . . . . . . XDATA;   MPEGTS  
+I2CINIT. . . . . . . . . . CODE;    MPEGTS  
+I2CPCKT. . . . . . . . . . DATA;    MPEGTS  
+I2CS . . . . . . . . . . . XDATA;   MPEGTS  
+I2CTL. . . . . . . . . . . XDATA;   MPEGTS  
+I2C_ISR. . . . . . . . . . CODE;    MPEGTS  
+I2DAT. . . . . . . . . . . XDATA;   MPEGTS  
+IBNIE. . . . . . . . . . . XDATA;   MPEGTS  
+IBNIRQ . . . . . . . . . . XDATA;   MPEGTS  
+IFCONFIG . . . . . . . . . XDATA;   MPEGTS  
+INITIALIZE . . . . . . . . CODE;    MPEGTS  
+INPKTEND . . . . . . . . . XDATA;   MPEGTS  
+INT2IVEC . . . . . . . . . XDATA;   MPEGTS  
+INT4IVEC . . . . . . . . . XDATA;   MPEGTS  
+INTERFACE. . . . . . . . . DATA;    MPEGTS  
+INTSETUP . . . . . . . . . XDATA;   MPEGTS  
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 10
+
+
+IOBUF. . . . . . . . . . . XDATA;   MPEGTS  
+MAC. . . . . . . . . . . . DATA;    MPEGTS  
+MAIN . . . . . . . . . . . CODE;    MPEGTS  ?C_INIT  
+MICROFRAME . . . . . . . . XDATA;   MPEGTS  
+MILLISECS. . . . . . . . . DATA;    MPEGTS  
+MYCONFIGDSCR . . . . . . . XDATA;   MPEGTS  
+MYDEVICEDSCR . . . . . . . XDATA;   MPEGTS  
+MYDEVICEQUALDSCR . . . . . XDATA;   MPEGTS  
+NAKIE. . . . . . . . . . . XDATA;   MPEGTS  
+NAKIRQ . . . . . . . . . . XDATA;   MPEGTS  
+NOSTOP . . . . . . . . . . BIT;     MPEGTS  
+OUTPKTEND. . . . . . . . . XDATA;   MPEGTS  
+PINFLAGSAB . . . . . . . . XDATA;   MPEGTS  
+PINFLAGSCD . . . . . . . . XDATA;   MPEGTS  
+PORTACFG . . . . . . . . . XDATA;   MPEGTS  
+PORTCCFG . . . . . . . . . XDATA;   MPEGTS  
+PORTECFG . . . . . . . . . XDATA;   MPEGTS  
+PTR. . . . . . . . . . . . DATA;    MPEGTS  
+RES_WAVEDATA_END . . . . . XDATA;   MPEGTS  
+REVCTL . . . . . . . . . . XDATA;   MPEGTS  
+REVID. . . . . . . . . . . XDATA;   MPEGTS  
+RWUEN. . . . . . . . . . . BIT;     MPEGTS  
+RWUEN_ALLOWED. . . . . . . BIT;     MPEGTS  
+SELFPWR. . . . . . . . . . BIT;     MPEGTS  
+SETUPCOMMAND . . . . . . . CODE;    MPEGTS  
+SETUPDAT . . . . . . . . . XDATA;   MPEGTS  
+STRING0. . . . . . . . . . XDATA;   MPEGTS  
+STRING1. . . . . . . . . . XDATA;   MPEGTS  
+STRING2. . . . . . . . . . XDATA;   MPEGTS  
+STRING3. . . . . . . . . . XDATA;   MPEGTS  
+SUDPTRCTL. . . . . . . . . XDATA;   MPEGTS  
+SUDPTRH. . . . . . . . . . XDATA;   MPEGTS  
+SUDPTRL. . . . . . . . . . XDATA;   MPEGTS  
+SUSPEND. . . . . . . . . . XDATA;   MPEGTS  
+TESTCFG. . . . . . . . . . XDATA;   MPEGTS  
+TIM0_INT . . . . . . . . . CODE;    MPEGTS  
+TIM1 . . . . . . . . . . . DATA;    MPEGTS  
+TOGCTL . . . . . . . . . . XDATA;   MPEGTS  
+UART230. . . . . . . . . . XDATA;   MPEGTS  
+UDMACRCH . . . . . . . . . XDATA;   MPEGTS  
+UDMACRCL . . . . . . . . . XDATA;   MPEGTS  
+UDMACRCQUAL. . . . . . . . XDATA;   MPEGTS  
+USBCS. . . . . . . . . . . XDATA;   MPEGTS  
+USBERRIE . . . . . . . . . XDATA;   MPEGTS  
+USBERRIRQ. . . . . . . . . XDATA;   MPEGTS  
+USBFRAMEH. . . . . . . . . XDATA;   MPEGTS  
+USBFRAMEL. . . . . . . . . XDATA;   MPEGTS  
+USBIE. . . . . . . . . . . XDATA;   MPEGTS  
+USBIRQ . . . . . . . . . . XDATA;   MPEGTS  
+USBTEST. . . . . . . . . . XDATA;   MPEGTS  
+USB_ISR. . . . . . . . . . CODE;    MPEGTS  
+VENDORCOMMANDS . . . . . . CODE;    MPEGTS  
+WAKEUPCS . . . . . . . . . XDATA;   MPEGTS  
+XAUTODAT1. . . . . . . . . XDATA;   MPEGTS  
+XAUTODAT2. . . . . . . . . XDATA;   MPEGTS  
+XGPIFSGLDATH . . . . . . . XDATA;   MPEGTS  
+XGPIFSGLDATLNOX. . . . . . XDATA;   MPEGTS  
+BL51 BANKED LINKER/LOCATER V5.03                                                      03/03/2024  14:43:55  PAGE 11
+
+
+XGPIFSGLDATLX. . . . . . . XDATA;   MPEGTS  
+_DELAY . . . . . . . . . . CODE;    MPEGTS  
+_I2CREAD . . . . . . . . . CODE;    MPEGTS  
+_I2CWRITE. . . . . . . . . CODE;    MPEGTS  
+_I2C_READ. . . . . . . . . CODE;    MPEGTS  
+_I2C_WRITE . . . . . . . . CODE;    MPEGTS  
+_MCOPY . . . . . . . . . . CODE;    MPEGTS  
+
+******************************************************************************
+* RESTRICTED VERSION WITH 1000H BYTE CODE SIZE LIMIT; USED: 0A06H BYTE (62%) *
+******************************************************************************
+
+Program Size: data=56.6 xdata=4659 code=2539
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
