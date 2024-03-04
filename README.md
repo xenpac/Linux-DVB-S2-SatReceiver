@@ -10,7 +10,10 @@ Something like the ***MiniTiouner***.
 ![modul](board-small.jpg)
 
 ## Overview
-
+This Satellite Receiver connects to a linux computer via USB cable.  
+It will be detected by linux-kernel as a "DVBWorld DW2104 USB2.0" DVB-Tuner-device.
+Its basicly a clone.  
+  
 Components used: 
 - **Sharp BSBE2-401A NIM Tuner** (CX24116/8) from ALI for about 7 $. (from 2008, used fe. in dreambox) 
 - **CY7C68013A FX2LP LCsoft-Board** USB controller from ALI for about 3 $ 
